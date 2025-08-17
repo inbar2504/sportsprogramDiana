@@ -10,7 +10,7 @@ function App() {
       <div className="App">
         <header className="App-Content">
           <Routes>
-             <Route path="/" element={<StartPage />} />
+             <Route path="/sportsprogramDiana/" element={<StartPage />} />
              <Route path="/important-note" element={<ImportantNotes />} />
              <Route path="/need-page" element={<NeedsPage/>} />
           </Routes>
